@@ -22,4 +22,4 @@ fi
 
 # Else, we are the active node
 # Rsync SPLUNK_HOME to the other node
-/bin/rsync -az $SPLUNK_HOME/ splunk@$SECONDARY_NODE:$SPLUNK_HOME/
+/usr/bin/rsync -az $SPLUNK_HOME/ splunk@$SECONDARY_NODE:$SPLUNK_HOME/
